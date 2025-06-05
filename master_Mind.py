@@ -62,6 +62,7 @@ def play_Mastermind():
 
         if black == 4:
             print(f"Congratulations! You guessed the code: {' '.join(secret_Code)}")
+
             return
 
     print(f"Sorry, you've used all attempts. The correct code was: {' '.join(secret_Code)}")
